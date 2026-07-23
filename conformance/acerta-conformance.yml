@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: searched
+source: https://acerta.ai/news/acerta-achieves-soc-2-type-1-certification/
+standards:
+- id: soc2-type1
+  conforms: true
+  evidence: >-
+    Acerta achieved SOC 2 Type 1 certification (announced 2024-11-25), covering
+    the Security trust service criteria; the company states SOC 2 Type 2 is in
+    progress.
+  docs: https://acerta.ai/news/acerta-achieves-soc-2-type-1-certification/
+- id: sso
+  conforms: true
+  evidence: >-
+    LinePulse is documented as enterprise-ready with single sign-on (SSO) for
+    manufacturing operations.
+  docs: https://acerta.ai/management/
+notes: >-
+  Acerta LinePulse is a private, enterprise SaaS analytics platform built on
+  Microsoft Azure. It exposes a proprietary data-ingestion API to customer
+  manufacturing systems but publishes no public OpenAPI, developer portal, SDKs,
+  or self-serve sign-up. Conformance is limited to the compliance posture the
+  company publishes (SOC 2 Type 1, SSO); no cross-cutting API standards
+  (OAuth2/OIDC/RFC 9457/etc.) can be asserted because no public specification
+  exists.

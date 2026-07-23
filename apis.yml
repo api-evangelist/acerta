@@ -1,7 +1,21 @@
 aid: acerta
 name: Acerta
-description: Acerta is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Acerta (Acerta Analytics Solutions Inc.) is a Canadian industrial-AI company
+  whose LinePulse platform delivers AI-driven manufacturing quality analytics
+  for discrete manufacturing. Founded in 2017 in Kitchener-Waterloo, Ontario,
+  Acerta helps Tier-1 automotive and powertrain manufacturers detect defects
+  early, reduce scrap and rework, and root-cause complex production issues in
+  real time. LinePulse replaces statistical process control software,
+  spreadsheets, and custom querying tools with real-time SPC, predictive
+  monitoring, and machine-learning root-cause analysis, and ingests production
+  data through a proprietary secure ingestion API. The platform is built on
+  Microsoft Azure, is SOC 2 Type 1 certified, and is proven across 300+
+  production lines in 12 countries with customers including BorgWarner, Dana,
+  Linamar, Ford, ZF, Ballard, and BMW. Acerta is a Techstars-backed portfolio
+  company. Acerta exposes no public developer API, OpenAPI specification,
+  self-serve sign-up, or SDKs; integration is delivered through enterprise
+  deployment with the LinePulse ingestion API.
 url: https://raw.githubusercontent.com/api-evangelist/acerta/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +23,31 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://acerta.ai/wp-content/uploads/2025/11/cropped-Acerta-favicon-192x192.png
 tags:
 - Company
+- Manufacturing
+- Analytics
+- Artificial Intelligence
+- Machine Learning
+- Quality
+- Automotive
+- Industrial IoT
+- Predictive Analytics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +55,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/acerta-domain-security.yml
 - type: Website
-  url: https://acerta.ca/
+  url: https://acerta.ai/
+- type: Blog
+  url: https://acerta.ai/news/
+- type: BlogRSS
+  url: https://acerta.ai/news/feed/
+- type: Support
+  url: https://acerta.ai/contact/
+- type: PrivacyPolicy
+  url: https://acerta.ai/privacy-policy/
+- type: LLMsTxt
+  url: llms/acerta-llms.txt
+- type: Conformance
+  url: conformance/acerta-conformance.yml
+- type: Compliance
+  url: https://acerta.ai/news/acerta-achieves-soc-2-type-1-certification/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

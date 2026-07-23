@@ -1,0 +1,21 @@
+{
+  "repo": "acerta",
+  "feeds": [
+    {
+      "source": "https://acerta.ai/",
+      "feed_url": "https://acerta.ai/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://acerta.ai/news/",
+      "feed_url": "https://acerta.ai/news/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-20T13:31:34Z"
+}
