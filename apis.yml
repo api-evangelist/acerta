@@ -76,6 +76,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: About
+  url: https://acerta.ai/about
 - type: DomainSecurity
   url: security/acerta-domain-security.yml
 - type: Website

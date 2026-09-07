@@ -2,20 +2,20 @@
   "repo": "acerta",
   "feeds": [
     {
-      "source": "https://acerta.ai/",
-      "feed_url": "https://acerta.ai/",
+      "source": "https://acerta.ai/news/",
+      "feed_url": "https://acerta.ai/news/",
       "title": "",
       "saved": 0,
       "method": "none"
     },
     {
-      "source": "https://acerta.ai/news/",
-      "feed_url": "https://acerta.ai/news/",
+      "source": "https://acerta.ai/",
+      "feed_url": "https://acerta.ai/",
       "title": "",
       "saved": 0,
       "method": "none"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-08-30T22:33:40Z"
+  "fetched": "2026-09-06T19:17:18Z"
 }
