@@ -54,7 +54,7 @@ tags:
 - Manufacturing
 - Analytics
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Quality
 - Automotive
 - Industrial IoT
@@ -69,6 +69,7 @@ tags_raw:
 - Automotive
 - Industrial IoT
 - Predictive Analytics
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
